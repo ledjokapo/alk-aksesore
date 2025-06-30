@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALK AKSESORE MOBILERIE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://ahf.al/wp-content/uploads/2023/06/hero-image.jpg') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 36px;
+      font-weight: 700;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      background: white;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 16px rgb(0 0 0 / 0.2);
+    }
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .product-card .content {
+      padding: 15px;
+    }
+    .product-card .title {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .product-card .desc {
+      font-size: 14px;
+      color: #666;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav a {
+        margin: 10px 10px 0 10px;
+        display: inline-block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ALK AKSESORE MOBILERIE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Produkte</a>
+      <a href="#">Rreth Nesh</a>
+      <a href="#">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    Aksesorë Mobilierie Cilësorë dhe Modernë
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://ahf.al/wp-content/uploads/2023/06/product1.jpg" alt="Produkt 1" />
+      <div class="content">
+        <div class="title">Produkt 1</div>
+        <div class="desc">Përshkrim i shkurtër për produktin e parë.</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://ahf.al/wp-content/uploads/2023/06/product2.jpg" alt="Produkt 2" />
+      <div class="content">
+        <div class="title">Produkt 2</div>
+        <div class="desc">Përshkrim i shkurtër për produktin e dytë.</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://ahf.al/wp-content/uploads/2023/06/product3.jpg" alt="Produkt 3" />
+      <div class="content">
+        <div class="title">Produkt 3</div>
+        <div class="desc">Përshkrim i shkurtër për produktin e tretë.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 ALK AKSESORE MOBILERIE | Kontakt: info@alkaksesor.com | Tel: +355 69 123 4567
+  </footer>
+</body>
+</html>
